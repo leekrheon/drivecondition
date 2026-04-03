@@ -379,6 +379,10 @@ html, body { height: 100%; background: var(--bg); font-family: 'Pretendard', -ap
 }
 .roll-digit { display: block; text-align: center; }
 </style>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
@@ -1616,7 +1620,7 @@ function shareImage() {
 
 // 스크린샷 캡처용: 버튼 숨기고 촬영 후 복원
 document.addEventListener('DOMContentLoaded', function() {
-  // 시스템 스크린샷 감지 (iOS/Android 일부 지원)
+  // 시��템 스크린샷 감지 (iOS/Android 일부 지원)
   // 대신 사용자가 직접 찍을 때를 위해 visibilitychange 이벤트 활용
   document.addEventListener('visibilitychange', function() {
     if (document.visibilityState === 'hidden') {
