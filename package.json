@@ -1,0 +1,25 @@
+{
+  "name": "drivecondition",
+  "version": "1.0.0",
+  "description": "Drive condition testing application with Vercel Web Analytics",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leekrheon/drivecondition"
+  },
+  "keywords": [
+    "drive",
+    "condition",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {}
+}
